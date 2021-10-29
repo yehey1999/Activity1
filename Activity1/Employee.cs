@@ -54,7 +54,7 @@ namespace Activity1
 
         public abstract double CalculateNetPay();
 
-        public void Display()
+        public virtual void Display()
         {
             Console.WriteLine("Id: {0}", Id);
             Console.WriteLine("Name: {0}", Name);

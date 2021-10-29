@@ -24,9 +24,8 @@ namespace Activity1
             Specialization = specialization;
         }
 
-        public void Display(string message)
+        public override void Display()
         {
-            Console.WriteLine(message);
             // can also be used to display the parent display method
             // base.Display();
             Console.WriteLine("Id:\t\t {0}", Id);

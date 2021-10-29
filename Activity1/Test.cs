@@ -44,7 +44,7 @@ namespace Activity1
                         break;
                     case 2:
                         Programmer programmer = new Programmer(id, name, specialization);
-                        programmer.Display("Programmer's Information");
+                        programmer.Display();
                         Console.WriteLine("Salary:\t\t {0}", programmer.CalculateSalary(days));
                         Console.WriteLine("Deduction:\t {0}", programmer.CalculateDeduction());
                         Console.WriteLine("Net Pay:\t {0}", programmer.CalculateNetPay());
